@@ -29,7 +29,7 @@ def open_door(user):
     sleep(2)
     info['text'] = "— Я знову за однією з дверей! Пробуй ще."
     door['font'] = 'Arial 30'
-    door['text'] = f'{user + 1}'¡〉
+    door['text'] = f'{user + 1}'
 
 win = Tk()
 win.geometry('500x300')
